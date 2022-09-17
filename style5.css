@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url("slike//borovnice.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 800px;
+}
+.card {
+    width: 350px;
+    height: 300px;
+    font-size: 35px;
+}
+.smokva{
+    background-image:url("slike//smokva.jpeg") ;
+    background-size: cover;
+    color: red;
+    order: 1;
+    border-radius: 10px;
+}
+.jagoda{
+    background-image:url("slike//jagode.jpeg") ;
+    background-size: cover;
+    color: red;
+    order:2;
+    border-radius: 10px;
+}
+.narandza{
+    background-image:url("slike//narandza.jpeg") ;
+    background-size:contain;
+    color:red;
+    order:3;
+    border-radius: 10px;
+}
+.lubenica{
+    background-image:url("slike/lubenica.jpg") ;
+    background-size: cover;
+    color: red;
+    order:4;
+    border-radius: 10px;
+}
